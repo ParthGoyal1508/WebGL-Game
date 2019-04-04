@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Subway Surfers</title>
+    <style> 
+			#overlay {
+			    position: absolute;
+			    left: 20px;
+			    top: 40px;
+			    /* background-color: rgba(16, 29, 206, 0.7); */
+			    color: whitesmoke;
+				  font-size: x-large;	
+			    font-family: monospace;
+			    padding: 1em;
+          font-weight: bold;
+
+			}
+		</style>
+    <!-- <link rel="stylesheet" href="../webgl.css" type="text/css">s -->
+  </head>
+
+  <body id="main_body">
+      <div id="game" class="container">
+        <canvas id="glcanvas" width="1820" height="860"></canvas>
+      </div>
+      <div id="overlay">
+          <div>Score::
+            <span id="score"></span>
+          </div>
+          <div>Coin::
+            <span id="coin"></span>
+          </div>
+    </div>
+  </body>
+  <script src="./gl-matrix.js"></script>
+  <script src="./cubeprime.js"></script>
+  <script src="./wall.js"></script>
+  <script src="./barricade.js"></script>
+  <script src="./flyingboost.js"></script>
+  <script src="./boots.js"></script>
+  <script src="./train.js"></script>
+  <script src="./player.js"></script>
+  <script src="./newplayer.js"></script>
+  <script src="./coin.js"></script>
+  <script src="./cone.js"></script>
+  <script src="./audio.js"></script>
+  <script src="./main.js"></script>
+</html>
